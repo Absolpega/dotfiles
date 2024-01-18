@@ -1,5 +1,3 @@
 #!/bin/sh
 
-whoami
-
-grep -v '^$' "~/.local/share/chezmoi/deps.txt" | paru --needed -S -
+grep -v '^$' "$HOME/.local/share/chezmoi/deps.txt" | paru --needed -S -
