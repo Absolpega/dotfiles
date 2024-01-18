@@ -12,6 +12,9 @@ fish_vi_key_bindings
 
 fish_add_path ~/.local/bin /opt/openresty/bin ~/.cargo/bin ~/.ghcup/bin
 
+export VISUAL=nvim
+export EDITOR=nvim
+
 # -----------------------------------------------------------------------------------------------------
 
 alias ls='dirs; exa -L 1 -T --icons'
