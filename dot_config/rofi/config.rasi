@@ -1,0 +1,8 @@
+configuration {
+	show: "drun";
+	modi: "run,drun";
+	terminal: "alacritty";
+	run-shell-command: "{terminal} -e bash -ic '{cmd} && read'";
+}
+
+@theme "/home/absolpega/.config/rofi/style.rasi"
