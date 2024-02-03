@@ -12,23 +12,22 @@ pamixer
 sddm
 hyprland
 xdg-desktop-portal-hyprland
-ttf-jetbrains-mono-nerd
 polkit-gnome
+ttf-jetbrains-mono-nerd
 
-swaync
-sassc
-swayosd-git
-waybar
-
-swww
 rofi-lbonn-wayland-git
+swww
+waybar
+swaync
+swayosd-git
+
+swayidle
+swaylock-effects-git
 
 grim
 slurp
 swappy
 
-swayidle
-swaylock-effects-git
-
 nwg-look-bin
-alacritty
+#alacritty
+foot
