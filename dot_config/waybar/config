@@ -3,11 +3,11 @@
 
     "position": "right",
 
-    "output": ["HDMI-A-1"],
+    "output": ["LVDS-1"],
 
     "modules-left": ["custom/swaync", "hyprland/workspaces"],
     "modules-center": [],
-    "modules-right": ["tray", "clock"],
+    "modules-right": ["tray", "battery", "clock"],
 
     "hyprland/workspaces": {
         "disable-scroll": true,
@@ -30,6 +30,11 @@
     "tray": {
         "icon-size": 28,
         "spacing": 10
+    },
+
+    "battery": {
+        "format": "<small>{capacity}%</small>\n<small> </small><big>{icon}</big>",
+        "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
     },
 
     "clock": {

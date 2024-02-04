@@ -13,6 +13,7 @@
 #custom-swaync,
 #workspaces,
 #tray,
+#battery,
 #clock {
   background-color: #121212;
   margin: 0.35rem 0.5rem 0 0.35rem;
@@ -54,6 +55,10 @@
 }
 
 #tray {
+  padding: 1rem 0.15rem;
+}
+
+#battery {
   padding: 1rem 0.15rem;
 }
 
