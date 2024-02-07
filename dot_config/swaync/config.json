@@ -54,7 +54,8 @@
       "clear-all-button": true
     },
     "backlight": {
-      "label": "󰃞"
+      "label": "󰃞",
+      "device": "radeon_bl0"
     },
     "volume": {
       "label": "󰕾"
