@@ -28,6 +28,6 @@ grim
 slurp
 swappy
 
-nwg-look-bin
+nwg-look
 #alacritty
 foot
