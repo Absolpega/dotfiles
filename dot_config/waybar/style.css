@@ -10,18 +10,32 @@
   background-color: transparent;
 }
 
+menu,
 tooltip {
-  background-color: #121212;
+  background-color: #000000;
   padding: 1rem;
   border-radius: 1.5rem;
 }
 
+menuitem {
+  border-radius: 0.5rem;
+}
+
+menuitem:hover {
+  background-color: alpha(#ffffff, 1);
+  color: #000000;
+}
+
+#cava {
+}
+
+#cava,
 #custom-swaync,
 #workspaces,
 #tray,
 #battery,
 #clock {
-  background-color: #121212;
+  background-color: #000000;
   margin: 0.35rem 0.5rem 0 0.35rem;
   border-radius: 2rem;
 }
@@ -51,7 +65,7 @@ tooltip {
   color: #000000;
 }
 
-#workspaces button.active {
+#workspaces button.visible {
   background-image: linear-gradient(90deg, #ccaaff, #aaccff);
   color: #000000;
 }

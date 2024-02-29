@@ -3,17 +3,18 @@
 
     "position": "right",
 
-    "output": ["LVDS-1"],
+    "output": ["HDMI-A-2"],
 
     "modules-left": ["custom/swaync", "hyprland/workspaces"],
     "modules-center": [],
-    "modules-right": ["tray", "battery", "clock"],
+    "modules-right": ["cava", "tray", "battery", "clock"],
+
 
     "hyprland/workspaces": {
         "disable-scroll": true,
         "all-outputs": false,
         "warp-on-scroll": false,
-        "format": "{name}",
+        "format": "{id}",
         "persistent_workspaces": {
             "1": [],
             "2": [],
@@ -41,6 +42,10 @@
     "clock": {
         "tooltip-format": "<tt>{calendar}</tt>",
         "format": "{:%I%n%M%n%p}"
+    },
+
+    "cava": {
+        "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ]
     },
 
     "custom/swaync": {

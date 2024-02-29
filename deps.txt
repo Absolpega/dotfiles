@@ -29,5 +29,7 @@ slurp
 swappy
 
 nwg-look
+wlr-randr
+nwg-displays
 #alacritty
 foot
