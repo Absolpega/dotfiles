@@ -26,7 +26,7 @@ if status is-interactive
 
     function fish_greeting
         # https://github.com/Absolpega/lffetch
-        set lffetch "$(which lffetch.lua 2> /dev/null)"
-        [ -n $lffetch ] && lffetch.lua
+        set fetch "$(which lffetch.lua 2> /dev/null)"
+        [ -n $fetch ] && eval $fetch
     end
 end
