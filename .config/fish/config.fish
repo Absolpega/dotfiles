@@ -1,7 +1,8 @@
-# deps: starship, atuin, zoxide, eza, nvim, trash-cli
+# deps: starship, atuin, zoxide, eza, trash-cli
 
 if status is-interactive
     fish_default_key_bindings
+    #fish_vi_key_bindings
 
     fish_add_path -P ~/.local/bin ~/.cargo/bin ~/.luarocks/bin/
 
@@ -19,4 +20,7 @@ if status is-interactive
     alias ls='eza --icons --hyperlink -1'
     alias reload='source ~/.config/fish/config.fish'
     alias dotfiles='command git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
+
+    function fish_greeting
+    end
 end
