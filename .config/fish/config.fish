@@ -5,7 +5,16 @@ if status is-interactive
     fish_add_path -P ~/.local/bin ~/.cargo/bin ~/.luarocks/bin/
 
     starship init fish | source
+    atuin init fish --disable-up-arrow | source
     zoxide init --cmd cd fish | source
+    #pyenv init - fish | source
+
+    #if test -f /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.fish
+    #    source /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.fish
+    #end
+    #if test -f /nix/var/nix/profiles/default/share/fish/vendor_completions.d/nix.fish
+    #    source /nix/var/nix/profiles/default/share/fish/vendor_completions.d/nix.fish
+    #end
 
     export VISUAL=nvim
     export EDITOR=nvim
@@ -13,8 +22,8 @@ if status is-interactive
     abbr l ls
     abbr rm trash
 
-    alias ltree='eza -T --icons'
-    alias ls='ltree -L 1'
+    alias ltree='eza --icons --hyperlink -T'
+    alias ls='eza --icons --hyperlink -1'
     alias reload='source ~/.config/fish/config.fish'
     alias dotfiles='command git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 
